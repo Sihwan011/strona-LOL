@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: calc(100vh - 80px); 
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin: 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}

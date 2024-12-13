@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="coś.css">
+<link rel="stylesheet" type="text/css" href="FAQ.css">
+<link rel="stylesheet" type="text/css" href="design.css">
+<link rel="stylesheet" href="dane kontaktowe.css">
+<html>
+<head>
+    <div class="navbar">
+        <a href="index.html">STRONA GŁÓWNA</a>
+        <a href="CHAMPIONS.html">CHAMPIONY</a>
+        <div class="dropdown">
+          <button class="dropbtn">SKINY
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Heartthrobs and Heartaches.html">Heartthrobs and Heartaches</a>
+            <a href="Arcane.html">Arcane</a>
+          </div>
+        </div>
+        <a href="logowanie.html">LOGOWANIE</a>
+        <a href="FAQ.html">FAQ</a>
+      </div>
+      
+<title>FAQ</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <body>
+                <center><h1>FAQ</h1>
+                <div class="faq">
+                    <div class="faq-item">
+                        <div class="faq-question">Jakie są wymagania sprzętowe?</div>
+                        <div class="faq-answer"><ul>
+                            <li>Procesor. Intel: Core i3-530 lub AMD: A6-3650.</li>
+                            <li>Karta graficzna. Nvidia: GeForce 9600GT, AMD: HD 6570 lub Intel: HD 4600 Integrated Graphics.</li>
+                            <li>Pamięć RAM. 2 GB.</li>
+                            <li>Wymagane miejsce na dysku. 16 GB.</li>
+                            <li>System operacyjny. Microsoft Windows 7/8/10.</li>
+                        </ul></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Nie możesz się zalogować?</div>
+                        <div class="faq-answer">W Internecie można znaleźć kilka rozwiązań problemów z logowaniem i z rozgrywką w trwającej sesji. Zebraliśmy kilka z nich, ale w pierwszej kolejności przedstawiamy oficjalne instrukcje od Riot Games, co powinien uczynić gracz w takiej sytuacji:
+                            <ul>
+                                <li> Naciśnij Alt + F4 na kliencie i kliknij „wyloguj się”, a nie „wyjdź”.</li>
+                                <li>Naciśnij Ctrl + Shift + Esc, aby otworzyć Menedżera zadań i zamknąć wszystkie wystąpienia RiotClientServices.exe i wszystkie wystąpienia LeagueofLegends.exe</li>
+                                <li>Ponownie otwórz klienta League of Legends (lub Riot Games!) i zaloguj się ponownie.</li>
+                                <li>Jeśli nadal występują problemy, powtórz te kroki, a także zamknij program „KillerServiceNetwork.exe”, ponieważ program ten może nadawać priorytet przepustowości strumieniom online i zmniejszać przepustowość dla League of Legends, powodując rozłączenie się.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Ile trwa ban na League of Legends?</div>
+                        <div class="faq-answer">Standardowo chat ban trwa od kilku gier do kilku dni, ale w przypadku poważniejszych naruszeń lub wielokrotnych przypadków toksycznego zachowania może być przedłużony nawet do kilku tygodni, jak i miesięcy.</div>
+                    </div>
+                </div>
+            
+                <script>
+                    document.querySelectorAll('.faq-question').forEach(question => {
+                        question.addEventListener('click', () => {
+                            const answer = question.nextElementSibling;
+                            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                        });
+                    });
+                </script>
+            </body>
+            </html>
+            
+</div>
+</div>
+                    <footer>
+                        <div class="contact-info">
+                            <h2>Kontakt</h2>
+                            <p><strong>Adres:</strong>West Los Angeles, Los Angeles, Kalifornia, Stany Zjednoczone </p>
+                            <p><strong>Telefon:</strong> 123 456 789</p>
+                            <p><strong>Email:</strong> support.riotgames.com </p>
+                        </div>
+                      
+                    </footer>
+            </div>
